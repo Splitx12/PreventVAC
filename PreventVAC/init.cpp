@@ -66,7 +66,7 @@ win32hook( BOOL __stdcall, ReadProcessMemory, ( HANDLE h, LPCVOID lpBase, LPVOID
     printf( "[WIN32] ReadProcessMemory: %p, %p, %d\n", h, lpBase, nSize );
     if( h != GetCurrentProcess( ) )
     {
-        printf( "   -> prevented memory read to %s\n\n", h );
+        printf( "   -> prevented memory read to %x\n\n", h );
         SetLastError( ERROR_ACCESS_DENIED );
         return FALSE;
     }
