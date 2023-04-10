@@ -9,3 +9,5 @@ It achieves its goal by hooking different steamserver.dll and winapi functions t
 Why am I saying this?
 Their server may be checking for callbacks done when registering a process monitor.
 In the future, Valve may punish for this kind of action, the line should be commented if you notice bad decrease of trust factor.
+
+See more on [UnknownCheats](https://www.unknowncheats.me/forum/anti-cheat-bypass/578728-preventvac-information.html#post3723086)
