@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="init.cpp" />
+    <ClCompile Include="service.cpp" />
+    <ClCompile Include="steamservice\monitor.cpp">
+      <Filter>steamservice</Filter>
+    </ClCompile>
+    <ClCompile Include="steamservice\processes.cpp">
+      <Filter>steamservice</Filter>
+    </ClCompile>
+    <ClCompile Include="steamservice\system.cpp">
+      <Filter>steamservice</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="preventvac.hpp" />
+    <ClInclude Include="MinHook.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="steamservice">
+      <UniqueIdentifier>{4d0f7d5f-2aad-410f-ac72-8f2b314ba2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minhook">
+      <UniqueIdentifier>{408694a4-2e23-4aed-8517-1e4c441f2cd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
